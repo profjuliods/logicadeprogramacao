@@ -1,0 +1,6 @@
+Respostas da atividade "Ligue os Conceitos aos Exemplos":
+
+Abstração  -> Ignorar detalhes para focar no essencial
+Algoritmo  -> Sequência de passos para resolver um problema
+Variável   -> Espaço para guardar um valor
+Condição   -> Tomar decisão com base em uma regra

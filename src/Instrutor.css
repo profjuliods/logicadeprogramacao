@@ -1,0 +1,53 @@
+#instrutor-fixo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+.balao {
+  position: absolute;
+  top: 30px;
+  background: linear-gradient(135deg,#fffbe6 60%,#ffd93d 100%);
+  color: #222;
+  padding: 16px 26px;
+  border-radius: 22px;
+  font-size: 1.08em;
+  font-style: italic;
+  min-width: 160px;
+  max-width: 260px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+  z-index: 10;
+  white-space: normal;
+  border: 2.5px solid #ffd93d;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  transition: left 0.2s, right 0.2s, top 0.2s, box-shadow 0.2s;
+  filter: drop-shadow(0 2px 8px #ffd93d55);
+}
+.balao.right {
+  left: calc(100% + 18px);
+  right: auto;
+}
+.balao.left {
+  right: calc(100% + 18px);
+  left: auto;
+}
+span[style*="position: fixed"] img {
+  box-shadow: none;
+  background: none;
+  padding: 0;
+  border-radius: 32px;
+  margin-top: 8px;
+}
+@media (max-width: 700px) {
+  .balao {
+    min-width: 120px;
+    max-width: 180px;
+    font-size: 0.97em;
+    padding: 10px 12px;
+    top: 0;
+  }
+  span[style*="position: fixed"] img {
+    height: 120px !important;
+  }
+}

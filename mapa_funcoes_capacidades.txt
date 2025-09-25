@@ -1,0 +1,20 @@
+FUNÇÕES	SUBFUNÇÕES	CAPACIDADES
+		BÁSICAS	TÉCNICAS
+		C1	C2	C3	C4	C5	C6	C7	C8
+		Utilizar aplicações e sistema operacional no desenvolvimento de documentação de sistemas web.	Compreender fundamentos de eletroeletrônica aplicada no desenvolvimento de sistemas	Aplicar lógica de programação na resolução de problemas computacionais.	Utilizar técnicas de modelagem e linguagem na manipulação de banco de dados.	Selecionar recursos e linguagem de programação para integração IoT	Estruturar aplicativos e sistemas por meio de técnicas de modelagem.	Desenvolver aplicações e sistemas por meio de linguagem de programação.	Selecionar procedimentos de teste que assegurem a aderência aos requisitos.
+1 - Programar sistemas computacionais, atendendo normas e padrão de qualidade, usabilidade, robustez, integridade e segurança.	1.1 - Realizar interação com banco de dados				9, 10, 11			
+	1.2 - Codificar programas			5, 6		13		
+	1.3 - Desenvolver sistemas com tecnologia IOT		3, 4		14, 15, 16		
+2 - Desenvolver sistemas computacionais, atendendo normas e padrão de qualidade, usabilidade, robustez, integridade e segurança.	2.1 - Testar sistemas							24, 25
+	2.2 - Implantar sistemas	1, 2			12		17	23	
+	2.3 - Manter sistemas	1, 2						
+	2.4 - Codificar sistemas		7, 8				20, 21, 22	
+	2.5 - Modelar sistemas					17, 18, 19		
+
+1 - Softwares de escritório	2 - Serviços de implantação e manutenção de sistemas	3 - Conceitos de eletricidade e grandezas	4 - Eletrônica analógica e digital
+5 - Expressões lógicas e aritméticas	6 - Pseudocódigo	7 - Estrutura de dados	8 - Algoritmos de busca e ordenação
+9 - Modelos conceitual, lógico e físico de banco de dados	10 - Linguagens DDL, DML e DCL	11 - Normalização de dados	12 - Instalação e configurações de serviços
+13 - Linguagem de programacao estruturada	14 - Conectividade de hardware e software	15 - Robótica	16 - Microcontroladores
+17 - Requisitos e regras de negócio de sistemas	18 - Modelagem de sistemas	19 - Linguagem UML	20 - Técnicas de programação
+21 - Linguagem de programação orientada a objetos	22 - Metodologias de desenvolvimento de sistemas	23 - Integração de sistemas	24 - Planejamento e documentação de testes
+25 - Tipos, níveis e técnicas de teste

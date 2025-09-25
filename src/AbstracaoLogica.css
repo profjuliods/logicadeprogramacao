@@ -1,0 +1,207 @@
+@media (max-width: 900px) {
+  .atividade {
+    padding: 8px 2vw !important;
+    font-size: 0.98em !important;
+  }
+  .atividade-conteudo {
+    flex-direction: column !important;
+    gap: 14px !important;
+    align-items: stretch !important;
+    max-width: 99vw !important;
+    padding: 0 !important;
+  }
+  .atividade-pergunta {
+    min-width: 0 !important;
+    max-width: 100vw !important;
+    padding: 12px 4vw 12px 4vw !important;
+    font-size: 1em !important;
+  }
+  .atividade-enunciado {
+    font-size: 1.08em !important;
+    margin-bottom: 10px !important;
+  }
+  .atividade-final {
+    padding: 18px 2vw 18px 2vw !important;
+    font-size: 1.05em !important;
+  }
+}
+.atividade {
+  background: rgba(0,0,0,0.15);
+  border-radius: 10px;
+  padding: 18px;
+  margin-top: 18px;
+  font-size: 1.1rem;
+}
+
+.atividade-jogo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.atividade-conteudo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 32px;
+  flex-wrap: nowrap;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.atividade-pergunta {
+  min-width: 260px;
+  max-width: 340px;
+  background: rgba(255,255,255,0.18);
+  border-radius: 14px;
+  padding: 20px 16px 16px 16px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin-bottom: 0;
+  border: 1.5px solid #ffd93d;
+}
+
+.atividade-enunciado {
+  font-size: 1.35em;
+  font-weight: 700;
+  margin-bottom: 18px;
+  text-align: center;
+  letter-spacing: 1.5px;
+  color: #fffbe6;
+}
+
+.atividade-sequencia {
+  letter-spacing: 2px;
+  color: #fff;
+}
+
+.atividade-interrogacao {
+  color: #ffd93d;
+  font-size: 1.4em;
+  font-weight: bold;
+  margin-left: 2px;
+  text-shadow: 0 1px 2px #0002;
+}
+
+.atividade-label {
+  margin-bottom: 8px;
+  font-size: 1.08em;
+  color: #fffbe6;
+  font-weight: 500;
+}
+
+.atividade-input {
+  padding: 12px;
+  border-radius: 8px;
+  border: 2px solid #ffd93d;
+  font-size: 1.15em;
+  margin-bottom: 18px;
+  outline: none;
+  transition: border 0.2s, box-shadow 0.2s;
+  background: #fffbe6;
+  color: #222;
+  box-shadow: 0 2px 8px #ffd93d33;
+}
+
+.atividade-input:focus {
+  border: 2.5px solid #43cea2;
+  box-shadow: 0 0 0 2px #43cea288;
+}
+
+.atividade-botoes {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 12px;
+  justify-content: center;
+}
+
+.btn-verificar, .btn-proxima {
+  padding: 10px 22px;
+  border-radius: 8px;
+  border: none;
+  font-weight: bold;
+  font-size: 1.08em;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px #0001;
+}
+
+.btn-verificar {
+  background: linear-gradient(45deg, #ffd93d, #fffbe6);
+  color: #222;
+}
+
+.btn-verificar:disabled {
+  background: #eee8b6;
+  color: #aaa;
+  cursor: not-allowed;
+}
+
+.btn-verificar:not(:disabled):hover {
+  background: linear-gradient(45deg, #fffbe6, #ffd93d);
+  color: #222;
+  box-shadow: 0 2px 12px #ffd93d55;
+}
+
+.btn-proxima {
+  background: linear-gradient(45deg, #43cea2, #185a9d);
+  color: #fff;
+}
+
+.btn-proxima:hover {
+  background: linear-gradient(45deg, #185a9d, #43cea2);
+  color: #fffbe6;
+  box-shadow: 0 2px 12px #185a9d55;
+}
+
+.atividade-feedback {
+  min-height: 28px;
+  font-weight: bold;
+  font-size: 1.12em;
+  margin-top: 10px;
+  text-align: center;
+  transition: color 0.2s;
+  letter-spacing: 0.5px;
+}
+
+.atividade-feedback.correto {
+  color: #43cea2;
+}
+
+.atividade-feedback.erro {
+  color: #ffd93d;
+}
+
+.atividade-final {
+  text-align: center;
+  font-size: 1.22em;
+  margin: 40px auto 24px auto;
+  background: rgba(255,255,255,0.13);
+  border-radius: 16px;
+  padding: 40px 24px 32px 24px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+  border: 1.5px solid #43cea2;
+  color: #fffbe6;
+}
+
+@media (max-width: 900px) {
+  .atividade-conteudo {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    max-width: 98vw;
+  }
+  .atividade-pergunta {
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+  }
+}

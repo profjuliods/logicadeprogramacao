@@ -1,0 +1,104 @@
+@media (max-width: 900px) {
+  .ligar-colunas-atividade {
+    padding: 10px 2vw 10px 2vw !important;
+    max-width: 99vw !important;
+    font-size: 0.98em !important;
+  }
+  .ligar-colunas-conteudo {
+    flex-direction: column !important;
+    gap: 14px !important;
+    align-items: stretch !important;
+    max-width: 99vw !important;
+    padding: 0 !important;
+  }
+  .coluna {
+    min-width: 0 !important;
+    max-width: 100vw !important;
+    padding: 0 !important;
+  }
+}
+.ligar-colunas-atividade {
+  background: rgba(255,255,255,0.10);
+  border-radius: 14px;
+  padding: 32px 18px 24px 18px;
+  margin: 32px auto 0 auto;
+  max-width: 900px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ligar-colunas-conteudo {
+  display: flex;
+  flex-direction: row;
+  gap: 48px;
+  margin: 24px 0 0 0;
+  align-items: flex-start;
+  justify-content: center;
+}
+.coluna {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 180px;
+  max-width: 260px;
+  align-items: stretch;
+}
+.coluna b {
+  color: #ffd93d;
+  font-size: 1.1em;
+  margin-bottom: 8px;
+  text-align: center;
+}
+.item-coluna {
+  background: #fffbe6;
+  color: #185a9d;
+  border-radius: 8px;
+  padding: 12px 10px;
+  margin-bottom: 4px;
+  font-size: 1.08em;
+  font-weight: 500;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: border 0.2s, background 0.2s, color 0.2s;
+  text-align: center;
+}
+.item-coluna.selecionado {
+  border: 2px solid #43cea2;
+  background: #e0ffe6;
+  color: #222;
+}
+.ligar-colunas-final {
+  margin-top: 32px;
+  background: #43cea2;
+  color: #fff;
+  border-radius: 10px;
+  padding: 18px 24px;
+  font-size: 1.15em;
+  text-align: center;
+  box-shadow: 0 2px 8px #43cea288;
+}
+.ligar-colunas-feedback {
+  margin-top: 18px;
+  font-size: 1.15em;
+  font-weight: bold;
+  text-align: center;
+  min-height: 28px;
+  transition: color 0.2s;
+}
+.ligar-colunas-feedback.acerto {
+  color: #43cea2;
+}
+.ligar-colunas-feedback.erro {
+  color: #ffd93d;
+}
+@media (max-width: 700px) {
+  .ligar-colunas-conteudo {
+    flex-direction: column;
+    gap: 18px;
+  }
+  .coluna {
+    min-width: 0;
+    max-width: 100vw;
+  }
+}
